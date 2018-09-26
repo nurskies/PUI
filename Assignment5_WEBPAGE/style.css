@@ -1,0 +1,70 @@
+<style>
+
+div.a {
+    text-align: center;
+}
+
+div.b{
+    text-align: right;
+}
+div.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+div.center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.right {
+    display: block;
+    padding-left: 1900px
+}
+
+div.middle{
+    padding-left:950px;
+    padding-right:950px;
+}
+
+img.FluffStuff{
+    height: auto;
+    width: 50%;
+}
+
+img.FluffHeader{
+    margin-left: 10px;
+    margin-right:auto;
+    width:15%;
+}
+img.icons{
+    height:15%;
+    width:20%;
+}
+
+img.icons_tiny{
+    height:415.969px;
+    width:433.969px;
+}
+
+/*row*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
