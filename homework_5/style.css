@@ -1,0 +1,234 @@
+
+
+/*font*/
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+
+}
+
+/*linebreaks*/
+hr {
+    border-width: 1px;
+}
+
+/*HEADERS*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    object-position: center;
+}
+
+.header h1{
+    font-size: 20px;
+}
+
+.header h4{
+    color: white;
+}
+
+.logocenter{
+    display: block;
+    height:auto;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logoleft{
+    text-align: left;
+    width: 330px;
+    height:auto;
+    margin: 0 auto;
+}
+
+.right{
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+/*Navigation bar*/
+.nav{
+    display: flex;
+    overflow: hidden;
+    background-color:black;
+    padding: 10px 10px;
+}
+
+
+/*white text*/
+.nav h4{
+    color:white;
+    margin: 20 20px;
+}
+
+.nav h5{
+    color:white;
+}
+
+.nav a{
+    color:#FF7878;
+}
+
+
+/*searchbox*/
+.nav .searchcontainer{
+    display: inline-flex;
+    text-align: right;
+}
+
+.nav input[type=text]{
+    font-size: small;
+    height: 20px;
+    margin: auto 16px;
+}
+
+
+
+/*row formatting*/
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left}
+
+.row h2{
+    text-decoration: underline;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    object-position: center;
+}
+.list-of-products {
+    padding: 0 100px;
+}
+
+.list-of-products .item {
+    flex: 1;
+    width: 25%;
+    box-sizing: border-box;;
+}
+
+.list-of-products .item .product-icon {
+    width: 100%;
+}
+
+.assortedpillows{
+    margin-left: 10px;
+    padding-left:100px;
+    height: 1000px;
+    justify-content: center;
+    object-position: center;
+}
+
+/* for centering*/
+
+.center{
+    display:block;
+    margin-left: auto;
+}
+
+.textcenter{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.textpad{
+    padding-top:30px;
+    padding-left: 100px;
+}
+
+/*pillowproductdetail*/
+
+.itemcontainer{
+    display: block;
+    padding-left: 40px;
+    flex-direction: column;
+    margin-right: auto;
+    width: 300px;
+}
+
+.itemcontainer .textstyle{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.itemcontainer .price{
+    font-weight: normal;
+}
+
+
+.sale{
+    text-decoration: line-through;
+    color: red;
+}
+
+/*spacing*/
+.pushdown{
+    padding-top: 30px;
+}
+
+.pushdownlarge{
+    padding-top: 80px;
+}
+
+.space{
+    padding-top: 50px;
+    margin-right: auto;
+}
+
+/*similar items*/
+.similar {
+    padding-top: 200px;
+}
+
+
+/*images*/
+img.centeroriginal{
+    margin-right: auto;
+    margin-left: auto;
+    width:auto;
+    height:auto;
+}
+
+img.couchpillow{
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+img.icons{
+    height:35%;
+    width: auto;
+}
+
+img.icons_all{
+    height:20%;
+    width: auto;
+}
+
+img.arrow{
+    height: 1%;
+    width: auto;
+}
+
+/*Filter box*/
+.filterbox{
+    justify-content: left;
+    padding-top: 10px;
+    max-width: 330px;
+}
+
+img.filterbox{
+    height:50%;
+    width: auto;
+    max-width: 330px;
+}
+
+.gutter{
+    padding-bottom:50px;
+}
